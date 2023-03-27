@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 450;
+    font-weight: 470;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 550;
+    font-weight: 570;
     src: url('../fonts/montserrat-v14-latin-500.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 850;
+    font-weight: 870;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -64,7 +64,7 @@ img {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 1 auto;
     position: relative;
 }
@@ -72,7 +72,7 @@ img {
 .section-tytle {
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 52px;
     line-height: 60px;
     position: relative;
     color: #313131;
@@ -99,7 +99,7 @@ a {
     grid-template: 1fr / 1fr minmax(auto, 350px) minmax(auto, 1000px) 1fr;
     align-items: center;
     height: 80px;
-    padding: 17px;
+    padding: 16px;
 }
 
 .header__burger {
@@ -115,7 +115,7 @@ a {
 }
 
 .header__logo img, .footer__logo img {
-    max-width: 60px;
+    max-width: 58px;
 }
 
 .header__logo img, .header__logo span, .footer__logo img, .footer__logo span {
@@ -153,7 +153,7 @@ a {
     font-size: 16px;
     padding: 10px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .header__link::after, .footer__link::after {
@@ -163,7 +163,7 @@ a {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: red;
+    background-color: rgb(115, 255, 0);
     content: "";
     transition: width 0.3s ease-out;
 }
@@ -175,8 +175,8 @@ a {
 .header__online-center {
     font-weight: bold;
     color: white;
-    background: #ED1942;
-    padding: 12px 20px 12px;
+    background: #55ed19;
+    padding: 12px 22px 12px;
     border-radius: 40px;
     letter-spacing: 1px;
     box-shadow: 1px 1px 1px black;
